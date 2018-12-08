@@ -1,0 +1,9 @@
+<!--wxml是编写小程序骨架的文件-->
+<!--<div>-->
+<view class="container">
+  <image class="user-images" src="/images/avatars/jianyipo01.jpg"></image>
+  <text class="user-name">剑一 · <text class="user-name" style="font-weight: bold">破</text></text>
+  <view class="moto-container">
+    <navigator catchtap='onTap' url='../posts/post' open-type='redirect' class="moto">开启小程序之旅</navigator>
+  </view>
+</view>

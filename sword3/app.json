@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/posts/post",
+    "pages/posts/post-detail/post-detail",
+    "pages/movies/movies"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#b3d4db"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#1aad16",
+    "list": [
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "剧集",
+        "iconPath": "images/icons/season01.png",
+        "selectedIconPath": "images/icons/season02.png"
+      },
+      {
+        "pagePath": "pages/posts/post",
+        "text": "角色曲",
+        "iconPath": "images/icons/music01.png",
+        "selectedIconPath": "images/icons/music02.png"
+      }
+    ]
+  }
+}

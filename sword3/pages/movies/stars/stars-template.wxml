@@ -1,0 +1,12 @@
+<template name='starsTemplate'>
+  <view class='stars-container'>
+    <view class='stars'>
+      <image src='/images/icons/star02.png'></image>
+      <image src='/images/icons/star02.png'></image>
+      <image src='/images/icons/star02.png'></image>
+      <image src='/images/icons/star02.png'></image>
+      <image src='/images/icons/star02.png'></image>
+    </view>
+    <text class='star-score'>{{avarage}}</text>
+  </view>
+</template>

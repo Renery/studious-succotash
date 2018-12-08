@@ -1,0 +1,23 @@
+/* pages/stars/stars.wxss */
+.stars-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.stars{
+  display: flex;
+  flex-direction: row;
+  height: 18rpx;
+  margin-right: 12rpx;
+  margin-top: 9rpx;
+}
+
+.stars image{
+  padding-left: 3rpx;
+  height: 18rpx;
+  width: 18rpx;
+}
+
+.star-score{
+  color: #1f3463;
+}
